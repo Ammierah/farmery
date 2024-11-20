@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Space</title>
+    <link rel="stylesheet" href="dashboard/style.css">
+    
+  <script src='https://kit.fontawesome.com/3256a9e1b4.js' crossorigin='anonymous'></script>
+  <style>
+    /* Styling for the pay-by-installment section */
+    #installment-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    #installment-box .fa-wallet {
+        font-size: 100px; /* Size of the icon */
+        color: #76b852; /* Adjust color to fit your theme */
+    }
+
+    #installment-box h2 {
+        margin: 10px 0;
+        font-size: 1.8em;
+    }
+
+    #installment-box p {
+        margin: 10px 0 20px;
+        font-size: 1em;
+        color: #555;
+    }
+
+    #installment-box button {
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #76b852; /* Button color */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #installment-box button:hover {
+        background-color: #76b852; /* Button hover color */
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>FARMERY</h1>
+        <h1>Market Space</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="savebox.html">Save Box</a></li>
+                <li><a href="installment.html">Installments</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+   
+    
+    <section id="installment-box">
+        <i class="fa-solid fa-wallet"></i>
+        <h2>Pay by Installment</h2>
+        <p>Make payments in smaller, manageable amounts to complete your purchase over time.</p>
+        <button onclick="startInstallment()">Start Now</button>
+    </section>
+    
+    <script>
+        function startInstallment() {
+            // Add the logic for handling the installment process here
+            alert("Installment payment process started!");
+        }
+    </script>
+    
+
+    <footer>
+        <p>&copy; 2024 Market Space</p>
+    </footer>
+
+    <script src="dashboard/script.js"></script>
+</body>
+</html>

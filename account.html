@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Space</title>
+    <link rel="stylesheet" href="dashboard/style.css">
+    
+  <script src='https://kit.fontawesome.com/3256a9e1b4.js' crossorigin='anonymous'></script>
+  
+  <style>
+    /* Styling for the user account section */
+    #account-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    #account-box img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    #account-box h2 {
+        font-size: 1.8em;
+        margin: 10px 0;
+    }
+
+    #account-box p {
+        font-size: 1em;
+        color: #555;
+        margin: 5px 0;
+    }
+
+    #account-box .account-balance {
+        font-size: 1.2em;
+        color: #76b852; /* Match the main theme color */
+        margin: 15px 0;
+        font-weight: bold;
+    }
+
+    #account-box button {
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #76b852; /* Button color */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    #account-box button:hover {
+        background-color: #76b852; /* Button hover color */
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>FARMERY</h1>
+        <h1>Market Space</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="savebox.html">Save Box</a></li>
+                <li><a href="installment.html">Installments</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+   
+    
+    <section id="account-box">
+        <i class="fa-solid fa-user"></i>
+        <h2>John Doe</h2>
+        <p>Email: johndoe@example.com</p>
+        <p class="account-balance">Balance: $500.00</p>
+        <button onclick="logoutUser()">Log Out</button>
+    </section>
+    
+    <script>
+        function logoutUser() {
+            // Logic to handle user logout
+            alert("You have been logged out.");
+        }
+    </script>
+    
+    
+    <script>
+        function startInstallment() {
+            // Add the logic for handling the installment process here
+            alert("Installment payment process started!");
+        }
+    </script>
+    
+
+    <footer>
+        <p>&copy; 2024 Market Space</p>
+    </footer>
+
+    <script src="dashboard/script.js"></script>
+</body>
+</html>

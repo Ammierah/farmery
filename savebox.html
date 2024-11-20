@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Space</title>
+    <link rel="stylesheet" href="dashboard/style.css">
+    
+  <script src='https://kit.fontawesome.com/3256a9e1b4.js' crossorigin='anonymous'></script>
+  <style>
+    /* Center the entire save-box section on the page */
+    #save-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       /* min-height: 100vh;  Full viewport height */
+        text-align: center; /* Center-align text and elements */
+    }
+
+    /* Adjust the icon size */
+    #save-box .fa-piggy-bank {
+        font-size: 100px; /* Adjust size as needed */
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>FARMERY</h1>
+        <h1>Market Space</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="savebox.html">Save Box</a></li>
+                <li><a href="installment.html">Installments</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="save-box" class="container">
+        <div style="align:center;">
+        <h2>Save Box</h2>
+        <i class="fa-solid fa-piggy-bank" style="font-size: 100px;color: #76b852;"></i>
+        <p>Save small amounts to buy food items later.</p>
+        <button onclick="saveToBox()">Save Now</button>
+    </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Market Space</p>
+    </footer>
+
+    <script src="dashboard/script.js"></script>
+</body>
+</html>

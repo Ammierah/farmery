@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Space</title>
+    <link rel="stylesheet" href="dashboard/style.css">
+    
+  <script src='https://kit.fontawesome.com/3256a9e1b4.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <header>
+        <h1>FARMERY</h1>
+        <h1>Market Space</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="savebox.html">Save Box</a></li>
+                <li><a href="installment.html">Installments</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Buy Food Items</h2>
+        <div class="market-items">
+            <div class="item">
+                <img src="dashboard/img2.jpg" alt="Rice">
+                <h3>Semo-vita</h3>
+                <p>₦1500</p>
+                <button onclick="addToCart('Rice', 20)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="dashboard/img3.jpg" alt="Beans">
+                <h3>Indomie</h3>
+                <p>₦2000</p>
+                <button onclick="addToCart('Beans', 15)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="dashboard/fish.jpeg" alt="Oil">
+                <h3>Fish</h3>
+                <p>₦3000</p>
+                <button onclick="addToCart('Oil', 10)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="market-items">
+            <div class="item">
+                <img src="dashboard/spa.png" alt="Rice">
+                <h3>Spaghetti</h3>
+                <p>₦1,500</p>
+                <button onclick="addToCart('Rice', 20)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="dashboard/G2.jpg" alt="Beans">
+                <h3>Garri</h3>
+                <p>₦2,000</p>
+                <button onclick="addToCart('Beans', 15)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="dashboard/RICE.jpg" alt="Oil">
+                <h3>RICE</h3>
+                <p>₦3,000</p>
+                <button onclick="addToCart('Oil', 10)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Market Space</p>
+    </footer>
+
+    <script src="dashboard/script.js"></script>
+</body>
+</html>
